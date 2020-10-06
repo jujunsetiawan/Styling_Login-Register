@@ -5,6 +5,7 @@ const styles = StyleSheet.create({
         backgroundColor: "dodgerblue",
         width: "100%",
         height: 40,
+        justifyContent: "center"
       },
       view2: {
         backgroundColor: "#77acd1",
@@ -24,13 +25,14 @@ const styles = StyleSheet.create({
         width: 250,
         height: 40,
         alignSelf: "center",
+        alignItems: "center",
+        justifyContent: "center",
         marginTop: 40,
         borderRadius: 20
       },
       text1: {
         color: "white",
         fontSize: 18,
-        margin: 7,
         fontWeight: "bold",
         textAlign: "center"
       },
@@ -46,7 +48,7 @@ const styles = StyleSheet.create({
         borderRadius: 50,
         marginTop: 40,
         borderWidth: 1,
-        borderColor: "#f1f1f1"
+        borderColor: "#f1f1f1",
       }
 })
 

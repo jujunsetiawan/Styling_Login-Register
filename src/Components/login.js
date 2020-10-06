@@ -16,18 +16,18 @@ class Login extends React.Component {
         <Text style = {styles.text2}>Learn React Native</Text>
         <Text style = {{color: "white", marginTop: 65, marginLeft: 65}}>Email :</Text>
         <View style = {styles.view3}>
-          <TextInput placeholder = "Masukan Alamat Email Anda" style = {{marginLeft: 15, marginTop: 5, borderColor: "white"}}/>
+          <TextInput placeholder = "Masukan Alamat Email Anda" style = {{marginLeft: 15, marginTop: 10, borderColor: "white", fontSize: 15}}/>
         </View>
         <Text style = {{color: "white", marginTop: 15, marginLeft: 65}}>Password :</Text>
         <View style = {styles.view3}>
-          <TextInput secureTextEntry = {true} placeholder = "Masukan Password" style = {{marginTop: 5, marginLeft: 15, borderColor: "white"}}/>
+          <TextInput secureTextEntry = {true} placeholder = "Masukan Password" style = {{marginTop: 10, marginLeft: 15, borderColor: "white", fontSize: 15, justifyContent: "center"}}/>
         </View>
         <TouchableOpacity onPress = {() => alert("masuk ke halaman lupa password")}>
         <Text style = {{color: "white", alignSelf: "center", marginLeft: 140, marginTop: 1}}>Lupa Password ?</Text>
         </TouchableOpacity>
         <TouchableOpacity onPress = {() => alert("Login Sukses")}>
           <View style = {styles.view4}>
-            <Text style = {{color: "white", alignSelf: "center", fontWeight: "bold", fontSize: 20, marginTop: 5}}>Login</Text>
+            <Text style = {{color: "white", fontWeight: "bold", fontSize: 20}}>Login</Text>
           </View>
         </TouchableOpacity>
         <TouchableOpacity onPress = {() => alert("Membuat Akun")}>
